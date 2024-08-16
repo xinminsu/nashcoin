@@ -24,10 +24,10 @@ module.exports = {
         ok: "OK",
 		fillComplete:"Please fill in the complete information",
 		inputpleaseselect: "Please enter",
-        testText1: 'This is a testing station! To purchase a commercial system, please contact Telegram:@Nashcoin ',
+        testText1: 'This is a testing station! To purchase a commercial system, please contact Telegram: ',
         testText2: '@Nashcoin',
-        testText3: '@bzengineer (Click@jump the only channel, beware of being cheated)',
-        chonggou:  '(New Reconstruction)'
+        testText3: ' (Click@jump the only channel, beware of being cheated)',
+        chonggou:  ''
     },
     header: {
         index: 'Home',

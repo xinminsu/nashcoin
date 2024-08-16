@@ -454,7 +454,7 @@
         <Col class="footer_left" :xs="24" :sm="8">
           <img src="./assets/images/logo-bottom.png"  alt=""/>
           <p style="letter-spacing:2px;">{{ $t("footer.gsmc") }}</p>
-          <p>Copyright ©2023 BIZZZAN.BIZ All rights reserved.</p>
+          <p>Copyright ©2023 nashcoin.org All rights reserved.</p>
           <div class="social-list">
             <ul>
 <!--              <Tooltip content="Wechat" theme="dark" placement="top">-->
@@ -491,7 +491,7 @@
 <!--                </div>-->
               </Tooltip>
 <!--              <Tooltip-->
-<!--                content="https://weibo.com/BIZZAN"-->
+<!--                content="https://weibo.com/NASH"-->
 <!--                theme="dark"-->
 <!--                placement="top"-->
 <!--              >-->
@@ -509,7 +509,7 @@
                 </li>
               </Tooltip>
 <!--              <Tooltip-->
-<!--                content="https://medium.com/@BIZZAN"-->
+<!--                content="https://medium.com/@NASH"-->
 <!--                theme="dark"-->
 <!--                placement="top"-->
 <!--              >-->
@@ -518,7 +518,7 @@
 <!--                </li>-->
 <!--              </Tooltip>-->
 <!--              <Tooltip-->
-<!--                content="https://www.reddit.com/u/BIZZANglobal"-->
+<!--                content="https://www.reddit.com/u/NASHglobal"-->
 <!--                theme="dark"-->
 <!--                placement="top"-->
 <!--              >-->
@@ -733,36 +733,36 @@ export default {
         case "nav-exchange":
           window.document.title =
             (this.lang === "zh_CN" ? "Exchange" : "Exchange") +
-            " - BIZZAN | BIZZAN | Global digital currency trading platform";
+            " - NASH | NASH | Global digital currency trading platform";
           break;
         case "nav-service":
           window.document.title =
             (this.lang === "zh_CN" ? "Announcement" : "Announcement") +
-            " - BIZZAN | BIZZAN | Global digital currency trading platform";
+            " - NASH | NASH | Global digital currency trading platform";
           break;
         case "nav-about":
           window.document.title =
             (this.lang === "zh_CN" ? "About" : "About") +
-            " - BIZZAN | BIZZAN | Global digital currency trading platform";
+            " - NASH | NASH | Global digital currency trading platform";
           break;
         case "nav-lab":
           window.document.title =
             (this.lang === "zh_CN" ? "Lab" : "Lab") +
-            " - BIZZAN | BIZZAN | Global digital currency trading platform";
+            " - NASH | NASH | Global digital currency trading platform";
           break;
         case "nav-invite":
           window.document.title =
             (this.lang === "zh_CN" ? "Promotion" : "Promotion") +
-            " - BIZZAN | BIZZAN | Global digital currency trading platform";
+            " - NASH | NASH | Global digital currency trading platform";
           break;
         case "nav-cexchange":
           window.document.title =
             (this.lang === "zh_CN" ? "Activity" : "Activity") +
-            " - BIZZAN | Global digital currency trading platform";
+            " - NASH | Global digital currency trading platform";
           break;
         default:
           window.document.title =
-            "BIZZAN | Global Bitcoin Trading Platform | Global Digital Currency Trading Platform";
+            "NASH | Global Bitcoin Trading Platform | Global Digital Currency Trading Platform";
           break;
       }
     },

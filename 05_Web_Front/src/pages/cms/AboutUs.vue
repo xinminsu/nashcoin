@@ -155,12 +155,12 @@
         <div class="content1" style="border:none;">
           <h5>{{ $t('description.community') }}</h5>
           <p>{{ $t('description.wechat') }}：{{ $t('description.addwechat') }}</p>
-          <p>{{ $t('description.weibo') }}：https://weibo.com/BIZZAN</p>
-          <p>{{ $t('description.twitter') }}：https://twitter.com/BIZZANGlobal</p>
-          <p>{{ $t('description.biyong') }}：https://0.plus/BIZZANofficial</p>
-          <p>{{ $t('description.telegram') }}：https://t.me/BIZZANofficial</p>
-          <p>{{ $t('description.medium') }}：https://medium.com/@BIZZAN</p>
-          <p>{{ $t('description.reddit') }}：https://www.reddit.com/u/BIZZANglobal</p>
+          <p>{{ $t('description.weibo') }}：https://weibo.com/NASH</p>
+          <p>{{ $t('description.twitter') }}：https://twitter.com/NASHGlobal</p>
+          <p>{{ $t('description.biyong') }}：https://0.plus/NASHofficial</p>
+          <p>{{ $t('description.telegram') }}：https://t.me/NASHofficial</p>
+          <p>{{ $t('description.medium') }}：https://medium.com/@NASH</p>
+          <p>{{ $t('description.reddit') }}：https://www.reddit.com/u/NASHglobal</p>
         </div>
       </div>
     </div>

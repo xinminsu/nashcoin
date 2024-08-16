@@ -2,7 +2,7 @@
   <div>
     <div id="fullpage">
       <div style="background-image: linear-gradient( 135deg, #F0A70A 10%, #0D25B9 100%);text-align: center;height:40px;line-height:40px;letter-spacing: 1px;"><a href="https://t.me/bizzanhevin" target="_blank" style="color: #ddd;text-decoration: none;">{{$t('common.testText1')}} </a><a href="https://t.me/bizzancom" target="_blank" style="color: #ddd;text-decoration: none;">{{$t('common.testText2')}} </a><a href="https://t.me/bzengineer" target="_blank" style="color: #ddd;text-decoration: none;">{{$t('common.testText3')}} </a></div>
-      <div style="background-image: linear-gradient( 135deg, rgb(133,16,239) 10%, #ff9500 100%);text-align: center;height:40px;line-height:40px;letter-spacing: 1px;"><a href="https://www.bizzan.net" target="_blank" style="color: #ddd;text-decoration: none;">www.bizzan.net{{$t('common.chonggou')}}</a></div>
+      <div style="background-image: linear-gradient( 135deg, rgb(133,16,239) 10%, #ff9500 100%);text-align: center;height:40px;line-height:40px;letter-spacing: 1px;"><a href="https://www.bizzan.net" target="_blank" style="color: #ddd;text-decoration: none;">www. nashcoin.org{{$t('common.chonggou')}}</a></div>
 
       <!-- banner &&& 轮播图 -->
       <div class="spin-wrap banner-panel">
@@ -184,7 +184,7 @@
 -->
         </div>
       </div>
-      <!-- 关于BIZZAN -->
+      <!-- 关于NASH -->
       <div class="about" id="page6">
         <div class="bz_container">
           <p class="title">{{ $t('sectionPage.brandTitle') }}</p>
