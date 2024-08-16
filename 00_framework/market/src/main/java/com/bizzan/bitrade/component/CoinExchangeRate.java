@@ -262,7 +262,7 @@ public class CoinExchangeRate {
             jsonObject.put("fiatCurrency", "CNY");
             // okex接口
             String urlOk="https://p2p.binance.com/bapi/c2c/v2/public/c2c/adv/quoted-price";
-            Unirest.setProxy(new HttpHost("172.21.112.246", 7890));
+            Unirest.setProxy(new HttpHost("10.128.0.2", 7890));
             try {
                 HttpResponse<JsonNode> resp = Unirest.post(urlOk).header("accept", "application/json").header("content-type", "application/json").body(jsonObject.toJSONString()).asJson();
                 if(resp.getStatus() == 200) { //正确返回
