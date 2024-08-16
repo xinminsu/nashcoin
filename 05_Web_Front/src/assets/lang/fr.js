@@ -1931,7 +1931,7 @@ module.exports = {
         sm: "6 mois",
         tm: "3 mois",
         createPlan:"Créer un plan",
-        labdetail: "Gestion de patrimoine Bizzan ● Solution d'investissement à guichet unique",
+        labdetail: "Gestion de patrimoine NASH ● Solution d'investissement à guichet unique",
         headertitledesc: "Gagnez de l'argent instantanément, facilement et en toute sécurité",
         url: "https://www.bizzan.biz/#/helpdetail?cate=1&id=89&cateTitle=FAQ",
         faq:"FAQ"

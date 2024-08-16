@@ -1962,7 +1962,7 @@ module.exports = {
         sm: "6月",
         tm: "3月",
         createPlan:"創建計劃",
-        labdetail: "Bizzan理財●一站式投資解決方案",
+        labdetail: "NASH理財●一站式投資解決方案",
         headertitledesc: "立即賺取收益、簡單&安全",
         url:"https://www.bizzan.biz/#/helpdetail?cate=1&id=92&cateTitle=%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C",
         faq:"常見問題"

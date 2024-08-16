@@ -1943,7 +1943,7 @@ module.exports = {
         sm: "6 Monat",
         tm: "3 Monat",
         createPlan:"Erstellen Sie einen Plan",
-        labdetail: "Vermögensverwaltung von Bizzan ● Anlagelösung aus einer Hand",
+        labdetail: "Vermögensverwaltung von NASH ● Anlagelösung aus einer Hand",
         headertitledesc: "Sofort Geld verdienen, einfach & sicher",
         url: "https://www.bizzan.biz/#/helpdetail?cate=1&id=88&cateTitle=h%C3%A4ufiges%20Problem",
         faq:"Earn FAQ"

@@ -1932,7 +1932,7 @@ feereturn: {
         sm: "6 mes",
         tm: "3 mes",
         createPlan:"crear un plan",
-        labdetail: "Gestión patrimonial Bizzan ● Solución de inversión integral",
+        labdetail: "Gestión patrimonial NASH ● Solución de inversión integral",
         headertitledesc: "Gana dinero al instante, fácil y seguro",
         url:"https://www.bizzan.biz/#/helpdetail?cate=1&id=91&cateTitle=PREGUNTAS%20M%C3%81S%20FRECUENTES",
         faq:"FAQ"

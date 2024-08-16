@@ -1939,7 +1939,7 @@ module.exports = {
         sm:'6月',
         tm:'3月',
         createPlan:"計画を立て",
-        labdetail: "Bizzanウェルスマネジメント●ワンストップ投資ソリューション",
+        labdetail: "NASHウェルスマネジメント●ワンストップ投資ソリューション",
         headertitledesc: "すぐに、簡単で安全にお金を稼ぐ",
         url: "https://www.bizzan.biz/#/helpdetail?cate=1&id=86&cateTitle=%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E5%95%8F%E9%A1%8C",
         faq:"よくある質問"

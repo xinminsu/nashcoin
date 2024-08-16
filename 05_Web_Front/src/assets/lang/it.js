@@ -1931,7 +1931,7 @@ module.exports = {
         sm: "giugno",
         tm: "Marzo",
         createPlan:"Crea un piano",
-        labdetail: "Gestione patrimoniale Bizzan ●Soluzione di investimento one-stop",
+        labdetail: "Gestione patrimoniale NASH ●Soluzione di investimento one-stop",
         headertitledesc: "Guadagna denaro istantaneamente, facile e sicuro",
         url: "https://www.bizzan.biz/#/helpdetail?cate=1&id=90&cateTitle=FAQ",
         faq:"FAQ"
