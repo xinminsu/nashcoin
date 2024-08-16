@@ -1,6 +1,5 @@
 <template>
   <div class="container exchange" :class="skin">
-    <div style=" background-image: linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%);text-align: center;height:30px;line-height:30px;letter-spacing: 1px;color:#FFF;"><a href="https://t.me/bizzanhevin" target="_blank" style="color: #ddd;text-decoration: none;">{{$t('common.testText1')}} </a><a href="https://t.me/bizzancom" target="_blank" style="color: #ddd;text-decoration: none;">{{$t('common.testText2')}} </a><a href="https://t.me/bzengineer" target="_blank" style="color: #ddd;text-decoration: none;">{{$t('common.testText3')}} </a></div>
     <!-- 手机显示开始 -->
     <div v-if="xsShow" class="tabBar">
       <Tabs>
