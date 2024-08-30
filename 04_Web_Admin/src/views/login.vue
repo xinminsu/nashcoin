@@ -72,7 +72,6 @@
 				</div>
 			</Card>
 		</div>
-    <div style=" position:absolute;top: 15px;font-size: 15px;margin-top: 10px;margin-left: 600px;color: rgb(255, 255, 255); background-image: linear-gradient(1350deg, rgba(253,101,133,0.42) 30%, rgb(13, 37, 185) 100%); text-align: center; height: 50px; line-height: 50px; letter-spacing: 1px;"><a href="https://t.me/bizzanhevin" target="_blank" style="color: #ddd;text-decoration: none;">{{$t('common.connect1')}} </a><a href="https://t.me/bizzancom" target="_blank" style="color: #ddd;text-decoration: none;">{{$t('common.connect2')}} </a><a href="https://t.me/bzengineer" target="_blank" style="color: #ddd;text-decoration: none;">{{$t('common.connect3')}} </a></div>
   </div>
 </template>
 
