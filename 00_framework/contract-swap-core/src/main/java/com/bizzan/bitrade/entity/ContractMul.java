@@ -12,6 +12,7 @@ import java.math.BigDecimal;
 
 @Entity
 @Data
+@Table
 public class ContractMul {
     /**
      * 主键ID

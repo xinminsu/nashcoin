@@ -14,7 +14,8 @@ import java.math.BigDecimal;
 
 @Entity
 @Data
-public class Position {
+@Table
+public class ContractPosition {
     /**
      * 主键ID
      */

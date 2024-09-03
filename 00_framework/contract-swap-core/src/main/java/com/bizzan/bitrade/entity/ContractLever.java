@@ -12,7 +12,8 @@ import java.math.BigDecimal;
 
 @Entity
 @Data
-public class Lever {
+@Table
+public class ContractLever {
     /**
      * 主键ID
      */

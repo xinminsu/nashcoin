@@ -14,6 +14,7 @@ import java.math.BigDecimal;
 
 @Entity
 @Data
+@Table
 public class ContractOrder {
     /**
      * 主键ID
@@ -112,7 +113,7 @@ public class ContractOrder {
     /**
      * 杠杆类型对象
      */
-    private Lever lever;
+    private ContractLever lever;
     /**
      * 创建时间
      */
