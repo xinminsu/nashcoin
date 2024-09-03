@@ -179,7 +179,7 @@
           <h2>{{ $t('invite.ptools') }}</h2>
           <div class="tools">
             <div class="item" @click="showCardItem">
-              <img src="https://bizzantest.oss-cn-hongkong.aliyuncs.com/2019/08/08/promotioncard.png" />
+              <img src="https://nashcoin.oss-cn-hongkong.aliyuncs.com/2019/08/08/promotioncard.png" />
               <p class="title">
                 {{ $t('invite.pt_title')
                 }}<span style="color:#FF0000;margin-left:10px;font-size:13px;">{{
@@ -189,7 +189,7 @@
               <p class="desc">{{ $t('invite.pt_desc') }}</p>
             </div>
             <div class="item" @click="useInviteImage">
-              <img src="https://bizzantest.oss-cn-hongkong.aliyuncs.com/2019/08/08/invitebg.jpg" />
+              <img src="https://nashcoin.oss-cn-hongkong.aliyuncs.com/2019/08/08/invitebg.jpg" />
               <p class="title">{{ $t('invite.pt_invite_title') }}</p>
               <p class="desc">{{ $t('invite.pt_invite_desc') }}</p>
             </div>
@@ -278,7 +278,7 @@
 
       <Drawer :title="$t('invite.pt_title')" :closable="false" v-model="showCardModal" width="350">
         <div class="ptcard-header">
-          <img class="card-img" src="https://bizzantest.oss-cn-hongkong.aliyuncs.com/2019/08/08/promotioncard.png" />
+          <img class="card-img" src="https://nashcoin.oss-cn-hongkong.aliyuncs.com/2019/08/08/promotioncard.png" />
           <div class="desc">
             <p class="title">{{ $t('invite.pt_title') }}</p>
             <p class="amount">{{ $t('invite.pt_card_amount') }}：0.001 BTC</p>

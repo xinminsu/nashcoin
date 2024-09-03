@@ -3,7 +3,7 @@
     <div class="login_right">
       <div style="color: #F90;margin-bottom: 60px;margin-top: 60px;">
         <h1 style="border-left: 5px solid #F90;padding-left: 10px;letter-spacing: 2px;line-height:30px;height:30px;">
-          BIZZAN.BIZ
+          NASH.BIZ
         </h1>
         <p style="padding-left:15px;letter-spacing: 6px;">{{ $t('footer.gsmc') }}</p>
         <div

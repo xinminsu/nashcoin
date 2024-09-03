@@ -3,7 +3,7 @@
     <div class="login_right">
       <div style="color: #000;margin-bottom: 60px;padding-top: 160px;width: 100%;text-align:center;z-index: 10;">
         <img src="../../assets/images/applogo.png" style="width: 22%;border-radius: 15px;" />
-        <p style="font-size:18px;">BIZZAN</p>
+        <p style="font-size:18px;">NASH</p>
         <p style="font-size:12px;margin-top: 10px;color:#888;">Latest Version：v{{ version }}</p>
         <p style="font-size:10px;margin-top: 10px;color:#888;letter-spacing: 1px;">Publish Time：{{ publishTime }}</p>
         <p style="font-size:18px;margin-top: 45px;">
@@ -27,27 +27,27 @@
     <div class="section" id="page4">
       <ul>
         <li>
-          <div><img src="https://bizzantest.oss-cn-hongkong.aliyuncs.com/2019/08/08/download1.png" alt="" /></div>
+          <div><img src="https://nashcoin.oss-cn-hongkong.aliyuncs.com/2019/08/08/download1.png" alt="" /></div>
           <p class="title">Extreme Experience</p>
           <p>Meticulously optimized interface display, experience smooth operation response</p>
         </li>
         <li>
-          <div><img src="https://bizzantest.oss-cn-hongkong.aliyuncs.com/2019/08/08/download2.png" alt="" /></div>
+          <div><img src="https://nashcoin.oss-cn-hongkong.aliyuncs.com/2019/08/08/download2.png" alt="" /></div>
           <p class="title">Currency Quotes</p>
           <p>Support MACD, KDJ, RSI, BOLL and other professional indicators</p>
         </li>
         <li>
-          <div><img src="https://bizzantest.oss-cn-hongkong.aliyuncs.com/2019/08/08/download5.png" alt="" /></div>
+          <div><img src="https://nashcoin.oss-cn-hongkong.aliyuncs.com/2019/08/08/download5.png" alt="" /></div>
           <p class="title">Currency Transaction</p>
           <p>Support two methods of limit order and market order</p>
         </li>
         <li>
-          <div><img src="https://bizzantest.oss-cn-hongkong.aliyuncs.com/2019/08/08/download3.png" alt="" /></div>
+          <div><img src="https://nashcoin.oss-cn-hongkong.aliyuncs.com/2019/08/08/download3.png" alt="" /></div>
           <p class="title">Fiat currency transaction</p>
           <p>Quality acceptors, to ensure the smooth flow of funds</p>
         </li>
         <li>
-          <div><img src="https://bizzantest.oss-cn-hongkong.aliyuncs.com/2019/08/08/download4.png" alt="" /></div>
+          <div><img src="https://nashcoin.oss-cn-hongkong.aliyuncs.com/2019/08/08/download4.png" alt="" /></div>
           <p class="title">Asset Center</p>
           <p>Focus on asset changes anytime, anywhere, fast recharge/withdraw</p>
         </li>
@@ -55,7 +55,7 @@
     </div>
 
     <div class="cover" id="cover" @click="coverClick">
-      <img src="https://bizzantest.oss-cn-hongkong.aliyuncs.com/2019/08/08/appdowncover.png" />
+      <img src="https://nashcoin.oss-cn-hongkong.aliyuncs.com/2019/08/08/appdowncover.png" />
     </div>
   </div>
 </template>
@@ -131,14 +131,14 @@ export default {
   methods: {
     init() {
       window.document.title =
-        (this.lang == 'en_US' ? 'APP Download - ' : 'APP Download - ') + 'BIZZAN | Global digital currency trading platform'
+        (this.lang == 'en_US' ? 'APP Download - ' : 'APP Download - ') + 'NASH | Global digital currency trading platform'
       this.getVersion()
     },
     downloadClick() {
       if (this.isWeiXin()) {
         document.getElementById('cover').style.display = 'block'
       } else {
-        location.href = 'https://bizzantest.oss-cn-hongkong.aliyuncs.com/appdownload/BIZZAN.apk'
+        location.href = 'https://nashcoin.oss-cn-hongkong.aliyuncs.com/appdownload/NASH.apk'
       }
     },
     downloadClick2() {

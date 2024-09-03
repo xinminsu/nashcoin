@@ -1959,7 +1959,7 @@ module.exports = {
         sm: "6 месяцев",
         tm: '3 месяца',
         createPlan:"Создать план",
-        labdetail: "Управление активами Bizzan ● Универсальное инвестиционное решение",
+        labdetail: "Управление активами NASH ● Универсальное инвестиционное решение",
         headertitledesc: "Зарабатывайте деньги мгновенно, легко и безопасно",
         url:"https://www.bizzan.biz/#/helpdetail?cate=1&id=85&cateTitle=FAQ",
         faq:"FAQ"
