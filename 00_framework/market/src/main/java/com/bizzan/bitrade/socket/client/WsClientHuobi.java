@@ -16,6 +16,7 @@ public class WsClientHuobi {
     public void run() {
 
         try {
+            System.out.println("---WsClientHuobi -- run");
             // 国内不被墙的地址/wss://api.huobi.pro/ws   ws://api.huobi.br.com:443/ws  wss://api.huobiasia.vip/ws
             URI uri = new URI("wss://api.huobi.pro/ws");
             WebSocketHuobi ws = new WebSocketHuobi(uri,  marketService);

@@ -68,6 +68,26 @@
                 </div>
                 <div style="float:left;margin-left: 10px;">
                   <Menu
+                      mode="horizontal"
+                      width="auto"
+                      @on-select="changelanguage"
+                      style="height: 50px;line-height:50px;"
+                  >
+                    <Submenu name="lang">
+                      <template slot="title" class="lang-title">
+                        <span>{{ $t("header.swapExchange") }}</span>
+                      </template>
+                      <router-link to="/exchange">
+                        <MenuItem name="nav-invite">{{
+                            $t("header.exchange")
+                          }}</MenuItem>
+                      </router-link>
+
+                    </Submenu>
+                  </Menu>
+                </div>
+                <div style="float:left;margin-left: 10px;">
+                  <Menu
                     mode="horizontal"
                     width="auto"
                     @on-select="changelanguage"

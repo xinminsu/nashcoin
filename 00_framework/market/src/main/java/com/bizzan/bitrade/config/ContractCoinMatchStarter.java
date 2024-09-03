@@ -28,6 +28,7 @@ public class ContractCoinMatchStarter implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments applicationArguments) throws Exception {
         try {
+            System.out.println("---ContractCoinMatchStarter -- run");
             WebSocketConnectionManage.setClient(client);
 
             WsClientHuobi w = new WsClientHuobi();

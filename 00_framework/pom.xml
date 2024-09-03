@@ -25,8 +25,8 @@
 		<module>netty</module>
         <module>wallet</module>
 <!--		<module>agent-api</module>-->
-<!--		<module>contract-swap-core</module>-->
-<!--		<module>contract-swap-api</module>-->
+		<module>contract-swap-core</module>
+		<module>contract-swap-api</module>
 <!--		<module>contract-coin-swap-core</module>-->
 <!--		<module>contract-coin-swap-api</module>-->
 <!--		<module>contract-option-core</module>-->

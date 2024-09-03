@@ -61,6 +61,7 @@ public class CoinProcessorJob {
     	// 获取撮合交易中心支持的币种
     	String serviceName = "SERVICE-EXCHANGE-TRADE";
         String url = "http://" + serviceName + "/monitor/engines";
+        System.out.printf("========CoinProcessorJob========now url: %s", url);
         ResponseEntity<HashMap> resultStr = restTemplate.getForEntity(url, HashMap.class);
         Map<String, Integer> exchangeCenterCoins = (HashMap<String, Integer>)resultStr.getBody();
         log.info("========CoinProcessorJob========now exchange support coins:{}", JSON.toJSONString(exchangeCenterCoins));
