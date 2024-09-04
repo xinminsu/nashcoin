@@ -62,7 +62,11 @@
                             $t("header.exchange")
                           }}</MenuItem>
                       </router-link>
-
+                      <router-link to="/">
+                        <MenuItem name="nav-invite">{{
+                            $t("header.cexchange")
+                          }}</MenuItem>
+                      </router-link>
                     </Submenu>
                   </Menu>
                 </div>
@@ -77,12 +81,26 @@
                       <template slot="title" class="lang-title">
                         <span>{{ $t("header.swapExchange") }}</span>
                       </template>
-                      <router-link to="/exchange">
+                      <router-link to="/swapu">
                         <MenuItem name="nav-invite">{{
-                            $t("header.exchange")
+                            $t("header.swap1")
                           }}</MenuItem>
                       </router-link>
-
+                      <router-link to="/">
+                        <MenuItem name="nav-invite">{{
+                            $t("header.swap2")
+                          }}</MenuItem>
+                      </router-link>
+                      <router-link to="/">
+                        <MenuItem name="nav-invite">{{
+                            $t("header.swap3")
+                          }}</MenuItem>
+                      </router-link>
+                      <router-link to="/">
+                        <MenuItem name="nav-invite">{{
+                            $t("header.swap4")
+                          }}</MenuItem>
+                      </router-link>
                     </Submenu>
                   </Menu>
                 </div>

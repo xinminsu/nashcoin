@@ -9,6 +9,8 @@ export default [
     { path: '/findPwd', component: resolve=>(require(["../pages/uc/findpwd"],resolve)) },
     { path: '/exchange', component: resolve=>(require(["../pages/exchange/exchange"],resolve)) },
     { path: '/exchange/:pair', component: resolve=>(require(["../pages/exchange/exchange"],resolve)), name: "ExchangePair"},
+    { path: '/swapu', component: resolve=>(require(["../pages/swapu/swapu"],resolve)) },
+    { path: '/swapu/:pair', component: resolve=>(require(["../pages/swapu/swapu"],resolve)), name: "SwapUPair"},
     { path: '/help', component: resolve=>(require(["../pages/cms/help"],resolve)) },
     { path: '/helplist', component: resolve=>(require(["../pages/cms/HelpList"],resolve)) },
     { path: '/helpdetail', component: resolve=>(require(["../pages/cms/HelpDetail"],resolve)) },
