@@ -1,5 +1,5 @@
 <template>
-  <div class="container exchange" :class="skin">
+  <div class="container swap" :class="skin">
     <!-- 手机显示开始 -->
     <div v-if="xsShow" class="tabBar">
       <Tabs>
@@ -770,7 +770,7 @@
     background-color: #EFA70B;
   }
 
-  .exchange .symbol .item .coin {
+  .swap .symbol .item .coin {
     font-size: 12px;
   }
 
@@ -833,18 +833,18 @@
 }
 </style>
 <style scoped lang="scss">
-@import url(../../assets/css/exchange.css);
+@import url(../../assets/css/swap.css);
 $night-bg: #0b1520;
 $night-headerbg: #27313e;
 $night-contentbg: #192330;
 $night-color: #fff;
 
-.exchange .ivu-tooltip-inner {
+.swap .ivu-tooltip-inner {
   padding: 2px 5px !important;
   min-height: 24px !important;
 }
 
-.exchange {
+.swap {
   color: #fff;
   background-color: #0b1520;
 
@@ -2217,7 +2217,7 @@ export default {
     init() {
       var params = this.$route.params.pair
       if (params == undefined) {
-        this.$router.push('/exchange/' + this.defaultPath)
+        this.$router.push('/swap/' + this.defaultPath)
         params = this.defaultPath
       }
       const basecion = params.split('_')[1]
@@ -3209,7 +3209,7 @@ export default {
     },
     gohref(currentRow, oldCurrentRow) {
       this.$router.push({
-        name: 'ExchangePair',
+        name: 'SwapPair',
         params: {
           pair: currentRow.href,
         },

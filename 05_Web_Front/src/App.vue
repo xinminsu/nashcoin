@@ -81,7 +81,7 @@
                       <template slot="title" class="lang-title">
                         <span>{{ $t("header.swapExchange") }}</span>
                       </template>
-                      <router-link to="/swapu">
+                      <router-link to="/swap">
                         <MenuItem name="nav-invite">{{
                             $t("header.swap1")
                           }}</MenuItem>
