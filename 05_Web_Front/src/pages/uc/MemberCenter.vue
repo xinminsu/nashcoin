@@ -204,6 +204,15 @@
               <MenuItem name="2-1">
                 <router-link to="/uc/money">{{ $t('uc.finance.personalassets') }}</router-link>
               </MenuItem>
+              <MenuItem name="2-5">
+                <router-link to="/uc/record">{{ $t('uc.finance.swapassets') }}</router-link>
+              </MenuItem>
+              <MenuItem name="2-6">
+                <router-link to="/uc/record">{{ $t('uc.finance.swapassets2') }}</router-link>
+              </MenuItem>
+              <MenuItem name="2-7">
+                <router-link to="/uc/record">{{ $t('uc.finance.second.secondaccount') }}</router-link>
+              </MenuItem>
               <MenuItem name="2-2">
                 <router-link to="/uc/record">{{ $t('uc.finance.billdetail') }}</router-link>
               </MenuItem>
