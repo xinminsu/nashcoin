@@ -105,12 +105,12 @@ public class SwapUstandardController extends BaseAdminController {
     }
     private Predicate getPredicate(SwapCoinScreen screen) {
         ArrayList<BooleanExpression> booleanExpressions = new ArrayList<>();
-        QExchangeCoin qExchangeCoin = QExchangeCoin.exchangeCoin;
+        QSwapCoin qSwapCoin = QSwapCoin.swapCoin;
         if (StringUtils.isNotBlank(screen.getCoinSymbol())) {
-            booleanExpressions.add(qExchangeCoin.coinSymbol.equalsIgnoreCase(screen.getCoinSymbol()));
+            booleanExpressions.add(qSwapCoin.coinSymbol.equalsIgnoreCase(screen.getCoinSymbol()));
         }
         if (StringUtils.isNotBlank(screen.getBaseSymbol())) {
-            booleanExpressions.add(qExchangeCoin.baseSymbol.equalsIgnoreCase(screen.getBaseSymbol()));
+            booleanExpressions.add(qSwapCoin.baseSymbol.equalsIgnoreCase(screen.getBaseSymbol()));
         }
 
         return PredicateUtils.getPredicate(booleanExpressions);
