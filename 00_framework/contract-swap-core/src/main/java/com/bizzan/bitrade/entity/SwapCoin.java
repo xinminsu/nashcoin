@@ -13,7 +13,7 @@ import java.math.BigDecimal;
 @Entity
 @Data
 @Table
-public class ContractCoin {
+public class SwapCoin {
     /**
      * 主键ID
      */
@@ -96,9 +96,9 @@ public class ContractCoin {
 
     public double totalCloseFee;
 
-    public String currentTime;
+    public long currentTime;
 
-    public String leftTime;
+    public long leftTime;
 
     public double currentPrice;
 

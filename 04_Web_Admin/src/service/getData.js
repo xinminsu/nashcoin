@@ -594,6 +594,11 @@ export const alterRank = data => post('admin/invite/management/update-rank', dat
 //POST获取 "C2C管理"=>"订单管理"=>"标记付款"
 export const ctcOrderPay = data => post('admin/ctc/order/pay-order', data);
 
+//U本位合约 "交易对管理"=>"添加交易对"
+export const addTradePairApi = data => post('admin/swap-coin/add', data);
+
+export const tradePairListApi = data => post('admin/swap-coin/page-query', data);
+
 //POST获取 "C2C管理"=>"订单管理"=>"取消订单"
 export const ctcOrderCancel = data => post('admin/ctc/order/cancel-order', data);
 
