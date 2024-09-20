@@ -8,7 +8,7 @@
 	<packaging>pom</packaging>
 	<name>${project.artifactId}</name>
 	<description>数字货币交易系统父节点</description>
-	<url>www.bizzan.pro</url>
+	<url>www.nashcoin.org</url>
 
 	<modules>
 		<module>core</module>
