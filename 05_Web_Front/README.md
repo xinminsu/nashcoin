@@ -1,5 +1,5 @@
 #### 项目介绍
-BIZZAN前端
+nashcoin前端
 
 #### 环境版本
 1. NodeJS - v14.18.2
@@ -14,7 +14,7 @@ BIZZAN前端
 
 
 #### Project introduction
-BIZZAN Front End
+nashcoin Front End
 
 #### Environment version
 1. NodeJS - v14.18.2
