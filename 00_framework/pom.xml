@@ -315,9 +315,6 @@
 			<properties>
 				<project.profile>application-dev</project.profile>
 			</properties>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
 		</profile>
 		<profile>
 			<id>test</id>
@@ -330,6 +327,9 @@
 			<properties>
 				<project.profile>application-prod</project.profile>
 			</properties>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
 		</profile>
 	</profiles>
 
