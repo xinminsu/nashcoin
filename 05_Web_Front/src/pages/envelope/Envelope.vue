@@ -74,7 +74,7 @@ export default {
     return {
       spinShow: false,
       hasReceived: false,
-      inviteLink: "http://www.nashcoin.org/envelope/",
+      inviteLink: "http://dev.nashcoin.org/envelope/",
       envelopeNo: "",
       country: "",
       sendcodeValue: this.$t("uc.regist.sendcode"),

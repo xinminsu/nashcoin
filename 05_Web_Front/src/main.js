@@ -72,8 +72,8 @@ const i18n = new VueI18n({
 
 Vue.use(ViewUI, { i18n: (key, value) => i18n.t(key, value) });
 
-Vue.prototype.rootHost = "http://www.nashcoin.org"; //NASH
-Vue.prototype.host = "http://api.nashcoin.org"; //NASH
+Vue.prototype.rootHost = "http://dev.nashcoin.org"; //NASH
+Vue.prototype.host = "http://apidev.nashcoin.org"; //NASH
 
 Vue.prototype.api = Api;
 Vue.http.options.credentials = true;
